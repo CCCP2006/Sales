@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sales.Domain.Models
 {
-    class DataContext : DbContext 
+    public class DataContext : DbContext 
     {
         public DataContext() : base("DefaultConnection")
         {
